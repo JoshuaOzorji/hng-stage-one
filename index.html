@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<!-- HEAD -->
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>MrJosh</title>
+		<link rel="stylesheet" href="styles.css" />
+
+		<!-- FAVICON -->
+		<link rel="icon" type="image/svg+xml" href="/assets/favicon.ico" />
+
+		<!-- FONTS -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Abel&family=Chonburi&display=swap"
+			rel="stylesheet" />
+	</head>
+
+	<body>
+		<main class="container">
+			<!-- HEADER -->
+			<header class="header">
+				<img src="/assets/logo-small.png" alt="logo" />
+
+				<div class="time-info">
+					<p><span data-testid="currentDay" id="currentDay"></span>,</p>
+
+					<span data-testid="currentTimeUTC" id="currentTimeUTC"></span>
+				</div>
+			</header>
+
+			<!-- HERO -->
+			<section class="hero-container">
+				<div class="hero">
+					<h1 class="font-chonburi">
+						My 2years Roadmap in Full-stack Web Development
+					</h1>
+
+					<div class="profile">
+						<img
+							src="/assets/mrjosh.png"
+							alt="MrJosh"
+							data-testid="slackProfilePicture"
+							id="profilePicture" />
+
+						<p data-testid="slackDisplayName">@MrJosh</p>
+						<p data-testid="slackEmail">ozorjijoshua@gmail.com</p>
+					</div>
+				</div>
+			</section>
+
+			<!-- CONTENT -->
+			<section class="content">
+				<h1 class="font-chonburi">The Roadmap</h1>
+
+				<div class="content-item">
+					<section id="overview" class="overview">
+						<h3 class="font-chonburi">Overview</h3>
+						<p class="font-abel">
+							Since I have a strong foundation in technical skills and a
+							portfolio to showcase my work, I am focusing on advancing my
+							skills, optimizing my existing knowledge, and preparing for
+							professional opportunities. Here's my updated two-year plan that
+							includes more advanced topics, optimization, and career-focused
+							activities.
+						</p>
+					</section>
+
+					<section id="year1" class="content-title">
+						<h2 class="font-chonburi">
+							Year 1: Advanced Development and Optimization
+						</h2>
+						<div class="quarter">
+							<h3 class="font-chonburi">
+								Quarter 1: Advanced Frontend Techniques
+							</h3>
+							<ul>
+								<li>
+									<strong>Performance Optimization</strong>: Implement
+									techniques like lazy loading, code splitting, and tree shaking
+									in React applications. Use tools like Lighthouse to audit and
+									improve application performance.
+								</li>
+								<li>
+									<strong>State Management</strong>: Deep dive into advanced
+									state management with Redux, MobX, or Context API. Optimize
+									state management for large-scale applications.
+								</li>
+							</ul>
+						</div>
+						<div class="quarter">
+							<h3 class="font-chonburi">
+								Quarter 2: Advanced Backend Techniques
+							</h3>
+							<ul>
+								<li>
+									<strong>Scalability and Performance</strong>: Implement
+									caching strategies (Redis, Memcached), load balancing, and
+									server clustering.
+								</li>
+								<li>
+									<strong>Advanced Database Management</strong>: Study advanced
+									topics in MongoDB and SQL databases, such as indexing,
+									aggregation pipelines, and transactions. Implement database
+									sharding and replication.
+								</li>
+								<li>
+									<strong>Microservices Architecture</strong>: Understand and
+									implement microservices using Node.js and Docker. Learn about
+									service discovery, API gateways, and inter-service
+									communication.
+								</li>
+							</ul>
+						</div>
+						<div class="quarter">
+							<h3 class="font-chonburi">Quarter 3: Security and Testing</h3>
+							<ul>
+								<li>
+									<strong>Application Security</strong>: Study and implement
+									security best practices for both frontend and backend (e.g.,
+									OWASP Top Ten). Implement HTTPS, Content Security Policy
+									(CSP), and secure headers.
+								</li>
+								<li>
+									<strong>Automated Testing</strong>: Write comprehensive unit,
+									integration, and end-to-end tests using Jest, Mocha, Chai, and
+									Cypress. Implement CI/CD pipelines with tools like Jenkins,
+									Travis CI, or GitHub Actions.
+								</li>
+								<li>
+									<strong>DevOps Practices</strong>: Learn about
+									containerization using Docker. Explore orchestration with
+									Kubernetes.
+								</li>
+							</ul>
+						</div>
+						<div class="quarter">
+							<h3 class="font-chonburi">
+								Quarter 4: Real-World Projects and Open Source Contributions
+							</h3>
+							<ul>
+								<li>
+									<strong>Fullstack Projects</strong>: Build and deploy a
+									fullstack application that solves a real-world problem.
+									Implement advanced features like real-time updates
+									(WebSockets) and background processing (message queues).
+								</li>
+								<li>
+									<strong>Open Source Contributions</strong>: Contribute to open
+									source projects related to your tech stack. Start your own
+									open-source project or library.
+								</li>
+								<li>
+									<strong>Professional Networking</strong>: Engage with tech
+									communities on platforms like GitHub, Stack Overflow, and
+									LinkedIn. Attend tech meetups, webinars, and conferences.
+								</li>
+							</ul>
+						</div>
+					</section>
+					<section id="year2" class="content-title">
+						<h2 class="font-chonburi">
+							Year 2: Professional Development and Career Growth
+						</h2>
+						<div class="quarter">
+							<h3 class="font-chonburi">
+								Quarter 1: Specialization and Advanced Topics
+							</h3>
+							<ul>
+								<li>
+									<strong>Cloud Services</strong>: Learn about cloud providers
+									like AWS, Azure, and GCP. Implement serverless functions and
+									explore cloud-based storage solutions.
+								</li>
+								<li>
+									<strong>Specialization</strong>: Choose a specialization area
+									such as DevOps, Data Engineering, AI/ML integration, or
+									Blockchain development. Deep dive into your chosen area with
+									advanced courses and projects.
+								</li>
+								<li>
+									<strong>Project Management</strong>: Learn agile methodologies
+									and tools like Jira, Trello, or Asana. Implement agile
+									practices in your projects.
+								</li>
+							</ul>
+						</div>
+						<div class="quarter">
+							<h3 class="font-chonburi">Quarter 2: Career Advancement</h3>
+							<ul>
+								<li>
+									<strong>Resume and Interview Preparation</strong>: Update your
+									resume and LinkedIn profile to reflect your latest projects
+									and skills. Practice coding interviews with platforms like
+									LeetCode, HackerRank, or InterviewBit.
+								</li>
+								<li>
+									<strong>Mock Interviews and Soft Skills</strong>: Participate
+									in mock technical and behavioral interviews. Improve soft
+									skills such as communication, teamwork, and problem-solving.
+								</li>
+								<li>
+									<strong>Job Applications and Networking</strong>: Apply for
+									fullstack developer positions at companies of interest.
+									Leverage professional networks and attend job fairs.
+								</li>
+							</ul>
+						</div>
+						<div class="quarter">
+							<h3 class="font-chonburi">
+								Quarter 3: Mentorship and Leadership
+							</h3>
+							<ul>
+								<li>
+									<strong>Mentorship</strong>: Seek mentorship from senior
+									developers and industry experts. Mentor junior developers or
+									peers in your network.
+								</li>
+								<li>
+									<strong>Leadership Skills</strong>: Develop leadership skills
+									through courses and practical experience. Take on leadership
+									roles in projects or community initiatives.
+								</li>
+								<li>
+									<strong>Continuous Learning</strong>: Stay updated with the
+									latest trends and technologies in the tech industry. Enroll in
+									advanced courses or certifications relevant to your career
+									goals.
+								</li>
+							</ul>
+						</div>
+						<div class="quarter">
+							<h3 class="font-chonburi">
+								Quarter 4: Reflection and Future Planning
+							</h3>
+							<ul>
+								<li>
+									<strong>Reflect on Progress</strong>: Review your
+									achievements, challenges, and areas for improvement over the
+									past two years. Update your portfolio with new projects and
+									accomplishments.
+								</li>
+								<li>
+									<strong>Set New Goals</strong>: Define new short-term and
+									long-term goals based on your experiences and interests.
+									Create a new roadmap for the next stage of your career
+									development.
+								</li>
+								<li>
+									<strong>Work-Life Balance</strong>: Ensure a healthy work-life
+									balance to sustain long-term productivity and well-being.
+									Engage in hobbies and activities outside of work to maintain a
+									balanced lifestyle.
+								</li>
+							</ul>
+						</div>
+					</section>
+				</div>
+			</section>
+			<!-- FOOTER -->
+			<footer class="footer" style="border-top: 1px solid #ced4da">
+				<img src="/assets/logo-small.png" alt="logo" />
+
+				<div class="links">
+					<a href="https://hng.tech/learn" data-testid="hngLink">HNG Learn</a>
+					<a href="https://keyword.dog" data-testid="keywordLink"
+						>Keyword Dog</a
+					>
+					<a href="https://scrapeanyweb.site" data-testid="scrapeanywebLink"
+						>Scrape Any Web</a
+					>
+				</div>
+			</footer>
+		</main>
+		<script src="script.js"></script>
+	</body>
+</html>
