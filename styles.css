@@ -17,11 +17,130 @@ body {
 	background-color: #f5f3f4;
 }
 
+/* Mobile styles (0px - 620px) */
+@media (max-width: 620px) {
+	.time-info {
+		font-size: 0.875rem;
+		line-height: 1.25rem;
+	}
+
+	.header {
+		padding: 0 1rem;
+	}
+
+	.hero {
+		width: 100%;
+		padding-top: 4rem;
+		padding-bottom: 4rem;
+	}
+
+	.hero h1 {
+		font-size: 2.2rem;
+		margin: 0;
+	}
+
+	.profile p {
+		font-size: 0.85rem;
+		line-height: 1.25rem;
+		padding: 0.2rem 0.4rem;
+	}
+
+	.content {
+		width: 90%;
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+	}
+
+	.footer {
+		padding: 0.25rem 0.5rem;
+	}
+
+	.links a {
+		font-size: 0.75rem;
+		line-height: 1.25rem;
+	}
+}
+
+/* Tablet styles (621px - 1020px) */
+@media (min-width: 621px) and (max-width: 1020px) {
+	.header {
+		padding: 0 1.5rem;
+	}
+
+	.hero {
+		width: 80%;
+		padding: 4rem 2rem;
+	}
+
+	.hero h1 {
+		font-size: 3.5rem;
+		margin: 0;
+	}
+
+	.profile p {
+		font-size: 1rem;
+		line-height: 1.25rem;
+		padding: 0.25rem 0.4rem;
+	}
+
+	.content {
+		width: 70%;
+		margin: 4rem auto;
+	}
+
+	.footer {
+		padding: 0.25rem 1.5rem;
+	}
+
+	.links a {
+		font-size: 0.9rem;
+		line-height: 1.5rem;
+	}
+}
+
+/* Desktop styles (1021px and above) */
+@media (min-width: 1021px) {
+	.header {
+		padding: 0 1.5rem;
+	}
+
+	.hero {
+		width: 80%;
+		padding: 4rem 2rem;
+	}
+
+	.hero h1 {
+		font-size: 4.5rem;
+		margin: 0;
+	}
+
+	.profile p {
+		font-size: 1rem;
+		line-height: 1.25rem;
+		padding: 0.25rem 0.4rem;
+	}
+
+	.content {
+		width: 60%;
+		margin: 4rem auto;
+	}
+
+	.footer {
+		padding: 0.25rem 1.5rem;
+	}
+
+	.links a {
+		font-size: 1rem;
+		line-height: 1.5rem;
+	}
+}
+
 .header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 0 1.5rem;
 	background-color: #d0d3db;
 }
 
@@ -33,28 +152,21 @@ body {
 
 .hero-container {
 	background-color: #0e103d;
-	padding: 4rem 0;
 	color: #020617;
+	padding-left: 2rem;
+	padding-right: 2rem;
 }
 
 .hero {
-	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
-	border-width: 2px;
-	border-bottom-width: 1px;
 	border-color: #e8eced;
 	text-color: #f5f3f4;
 	color: #f7fff7;
-}
-
-.hero h1 {
-	font-size: 4.5rem;
-	margin: 0;
 }
 
 .profile {
@@ -65,8 +177,6 @@ body {
 }
 
 .profile p {
-	font-size: 1.1rem;
-	line-height: 1.5rem;
 	border-radius: 0.5rem;
 	border-width: 1px;
 	border-color: #f5f3f4;
@@ -74,9 +184,11 @@ body {
 	padding: 0.25rem 0.4rem;
 }
 
-.content {
-	width: 60%;
-	margin: 4rem auto;
+.profile p {
+	border-radius: 0.5rem;
+	border-width: 1px;
+	border-color: #f5f3f4;
+	border-style: solid;
 }
 
 .content h1 {
@@ -87,7 +199,7 @@ body {
 .overview {
 	text-align: center;
 	background-color: white;
-	padding: 0.25rem 0.4rem;
+	padding: 0.25rem 2rem;
 	border-radius: 0.5rem;
 	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
 }
@@ -121,7 +233,6 @@ body {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 0.25rem 1.5rem;
 }
 
 .links {
